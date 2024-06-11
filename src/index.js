@@ -4,6 +4,9 @@ const morgan = require('morgan');
 
 const app = express(); // Inicializamos la API
 
+// Conectamos a la base de datos
+require('./db.js');
+
 app.set('port', 3000); // Configuramos el puerto
 
 app.use(morgan('dev')); // Biblioteca para mensajes de LOG

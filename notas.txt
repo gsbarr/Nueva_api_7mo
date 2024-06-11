@@ -10,3 +10,8 @@ npm i dotenv // Para utilizar variables de entorno. Nos va a servir para ocultar
 
 // Para ejecutar la app
 npm run dev
+
+
+//Cadena de conexión
+mongodb+srv://DaniMongoDb:<password>@cluster0.v86wlk7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
